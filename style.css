@@ -12,11 +12,30 @@ body {
   background-color: var(--cor-de-fundo);
   color : var(--branco-principal);
 }
-.container {
-  height: 100vh;
-}
 .principal {
   background-image: url("./img/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.container__botao {
+  
+  background-color: #167BF7;
+  text-decoration: none;
+  color: var(--branco-principal);
+  border-radius: 8px;
+  padding: 1em;
+  
+}
+.botao_branco {
+background-color: transparent;
+ color: #FFFFFF;
+ text-decoration: none;
+ border: 1px solid #FFFFFF;
+ border-radius: 8px;
+ padding: 16px;
 }
