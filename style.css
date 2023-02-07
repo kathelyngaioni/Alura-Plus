@@ -63,6 +63,7 @@ body {
  border: 1px solid #FFFFFF;
  border-radius: 8px;
  padding: 16px;
+ display : block;
 }
 .container__aviso {
   font-size: 12px;
@@ -88,4 +89,12 @@ body {
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 16px; 
+}
+
+.secundario__botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+.container__descricao {
+  padding: 2em;
 }
