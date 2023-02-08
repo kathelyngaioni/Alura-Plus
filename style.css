@@ -114,6 +114,7 @@ body {
   flex-direction: row;
   justify-content: center;
   list-style-type: none; 
+  margin-bottom: 1.7em;
 }
 .lista__item {
   text-align: center;
@@ -121,4 +122,33 @@ body {
   font-weight: 700;
   font-size: 32px;
   color: var(--branco-principal);
+}
+
+
+.rodape {
+  text-align: center;  
+}
+.rodape__imagem{
+  margin-top: 3em;
+}
+.rodape__links {
+  display:flex;
+  justify-content: center;
+  gap:18px;
+  margin-top: 1em;
+}
+.rodape__links__link {
+  text-decoration: none;
+  color: var(--branco-principal);
+  font-weight: 400;
+  font-size: 16px; 
+}
+.rodape__paragrafo {
+  color: var(--cinza-secundario);
+  font-weight: 400;
+  font-size: 14px;
+  margin:1em 0;
+}
+.fim {
+  margin-bottom: 6em;
 }
