@@ -98,3 +98,27 @@ body {
 .container__descricao {
   padding: 2em;
 }
+
+  
+
+.dispositivos__titulo {
+  text-align: center;
+  /*font-family: var(--fonte-principal);*/
+  font-weight: 700;
+  font-size: 48px;
+  margin: 1.7em 0;
+  color: var(--branco-principal);
+}
+.dispositivos__lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none; 
+}
+.lista__item {
+  text-align: center;
+  /*font-family: var(--fonte-principal);*/
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--branco-principal);
+}
