@@ -1,3 +1,4 @@
-                                 CSS
-• root vai ser útil para criar váriaveis. O nome da váriavel começa com --
-• adicionar imagem no CSS : backrgoun-image : url("").
+<p align="center">
+  <img src="./img/alura-plus-1.png" width="350" title="hover text">
+  <img src="./img/alura-plus-2.png" width="350" alt="accessibility text">
+</p>
